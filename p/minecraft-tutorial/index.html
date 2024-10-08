@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Minecraft Java 版基础教程">
+<title>Minecraft 教程</title>
+
+<link rel='canonical' href='https://5itomato.github.io/p/minecraft-tutorial/'>
+
+<link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="Minecraft 教程">
+<meta property='og:description' content="Minecraft Java 版基础教程">
+<meta property='og:url' content='https://5itomato.github.io/p/minecraft-tutorial/'>
+<meta property='og:site_name' content='番茄炒西红柿'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Minecraft' /><meta property='article:tag' content='教程' /><meta property='article:published_time' content='2022-08-09T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-02-24T13:27:33&#43;00:00'/><meta property='og:image' content='https://5itomato.github.io/p/minecraft-tutorial/wallpaper_minecraft_bedrock_edition_2560x1440.png' />
+<meta name="twitter:title" content="Minecraft 教程">
+<meta name="twitter:description" content="Minecraft Java 版基础教程"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://5itomato.github.io/p/minecraft-tutorial/wallpaper_minecraft_bedrock_edition_2560x1440.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu4993933478544221023.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">😀</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">番茄炒西红柿</a></h1>
+            <h2 class="site-description">无限进步！</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/5itomato'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/FQ_Block'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://5itomato.github.io/" selected>中文</option>
+                                
+                                    <option value="https://5itomato.github.io/en/" >English</option>
+                                
+                                    <option value="https://5itomato.github.io/ja/" >日本語</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#一选择启动器">一、选择启动器</a></li>
+    <li><a href="#二选择登录方式">二、选择登录方式</a></li>
+    <li><a href="#三游戏下载">三、游戏下载</a></li>
+    <li><a href="#四其他安装">四、其他安装</a>
+      <ol>
+        <li><a href="#mod安装">Mod安装</a></li>
+        <li><a href="#材质包安装">材质包安装</a></li>
+        <li><a href="#光影包安装">光影包安装</a></li>
+        <li><a href="#数据包安装">数据包安装</a></li>
+        <li><a href="#整合包安装">整合包安装</a></li>
+      </ol>
+    </li>
+    <li><a href="#五个性化">五、个性化</a></li>
+    <li><a href="#六游玩教程">六、游玩教程</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/minecraft-tutorial/">
+                <img src="/p/minecraft-tutorial/wallpaper_minecraft_bedrock_edition_2560x1440_hu7941460206825729080.png"
+                        srcset="/p/minecraft-tutorial/wallpaper_minecraft_bedrock_edition_2560x1440_hu7941460206825729080.png 800w, /p/minecraft-tutorial/wallpaper_minecraft_bedrock_edition_2560x1440_hu5257169256141472905.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post Minecraft 教程" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/minecraft/" style="background-color: #2a9d8f; color: #fff;">
+                Minecraft
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/minecraft-tutorial/">Minecraft 教程</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Minecraft Java 版基础教程
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 09, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="minecraft教程">Minecraft教程
+</h1><blockquote>
+<p>Statement：</p>
+<p><font color=red><em><strong>请支持正版！！！</strong></em></font></p>
+<p><font color=blue><em><strong>请注意分辨，本人不承担任何因个人操作造成的损失</strong></em></font></p>
+<p>本教程是由玩家 Tomato295 编写的，如有疑问</p>
+<p>请移步至邮箱咨询：160783295@qq.com</p>
+</blockquote>
+<h2 id="一选择启动器">一、选择启动器
+</h2><p>目前国内的主流启动器有：</p>
+<ol>
+<li>
+<p>MInecraft Launcher（官方启动器，因为其谜一般的下载速度以及功能性，不推荐）</p>
+</li>
+<li>
+<p>Hello Minecraft! Launcher（老牌第三方启动器，稳定）</p>
+</li>
+<li>
+<p>Plain Craft Launcher 2 （近年来的新兴启动器，功能丰富）</p>
+</li>
+<li>
+<p>BakaXL（二刺猿浓度较高的启动器，并且使用体验不错）</p>
+</li>
+<li>
+<p>其他启动器（优秀的启动器还有很多，请自行发掘）</p>
+</li>
+</ol>
+<h2 id="二选择登录方式">二、选择登录方式
+</h2><ol>
+<li>
+<p>Microsoft登录（使用微软账号登录，由于Mojang官方的账号迁移，现已经成为绝大部分正版玩家的登录方式）</p>
+</li>
+<li>
+<p>Mojang登录（使用Mojang账号登录，由于账号迁移政策，现已逐渐退出历史）</p>
+</li>
+<li>
+<p>第三方外置登录（使用第三方皮肤站，如Littleskin的验证服务器进行登录验证，属于非正版）</p>
+<p>下面是第三方登录的图解教程（LittleSkin与PCL2启动器为例）：</p>
+<p><img src="/p/minecraft-tutorial/5.png"
+	width="2560"
+	height="1528"
+	srcset="/p/minecraft-tutorial/5_hu678540527573054859.png 480w, /p/minecraft-tutorial/5_hu17763615772726125727.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="402px"
+	
+></p>
+<p><img src="/p/minecraft-tutorial/6.png"
+	width="2560"
+	height="1529"
+	srcset="/p/minecraft-tutorial/6_hu15870342239384535373.png 480w, /p/minecraft-tutorial/6_hu7558318808961011871.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="401px"
+	
+></p>
+<p><img src="/p/minecraft-tutorial/7.png"
+	width="2560"
+	height="1528"
+	srcset="/p/minecraft-tutorial/7_hu2197516333834454934.png 480w, /p/minecraft-tutorial/7_hu8196542301344177373.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="402px"
+	
+></p>
+<p><img src="/p/minecraft-tutorial/8.png"
+	width="2560"
+	height="1518"
+	srcset="/p/minecraft-tutorial/8_hu3169600369670796918.png 480w, /p/minecraft-tutorial/8_hu11722676322833138042.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="168"
+		data-flex-basis="404px"
+	
+></p>
+<p><img src="/p/minecraft-tutorial/9.png"
+	width="1915"
+	height="1113"
+	srcset="/p/minecraft-tutorial/9_hu5145036463329836000.png 480w, /p/minecraft-tutorial/9_hu15582258463924956926.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="172"
+		data-flex-basis="412px"
+	
+></p>
+</li>
+<li>
+<p>离线模式（不过多介绍）</p>
+<p><font color=red><em><strong>请支持正版！！！</strong></em></font></p>
+</li>
+</ol>
+<h2 id="三游戏下载">三、游戏下载
+</h2><p>在此我以Plain Craft Launcher 2 启动器为例。</p>
+<p>操作方式如下图：</p>
+<p><img src="/p/minecraft-tutorial/1.png"
+	width="1928"
+	height="1152"
+	srcset="/p/minecraft-tutorial/1_hu17176549247268078488.png 480w, /p/minecraft-tutorial/1_hu1024920188970117657.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="401px"
+	
+></p>
+<p><img src="/p/minecraft-tutorial/2.png"
+	width="1928"
+	height="1152"
+	srcset="/p/minecraft-tutorial/2_hu3389699993495350210.png 480w, /p/minecraft-tutorial/2_hu958659855944736502.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="401px"
+	
+></p>
+<p><img src="/p/minecraft-tutorial/3.png"
+	width="1928"
+	height="1152"
+	srcset="/p/minecraft-tutorial/3_hu656061981577310455.png 480w, /p/minecraft-tutorial/3_hu10670205579204394291.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="401px"
+	
+></p>
+<p><img src="/p/minecraft-tutorial/4.png"
+	width="1650"
+	height="1026"
+	srcset="/p/minecraft-tutorial/4_hu9717430041797096163.png 480w, /p/minecraft-tutorial/4_hu6966351930637890280.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="385px"
+	
+></p>
+<p>在此我介绍一下这些附加安装：</p>
+<ol>
+<li>
+<p>OPtifine又叫高清修复，是很多光影的前置，同时也能实现性能优化。但不兼容Fabric，无法同时安装</p>
+</li>
+<li>
+<p>Forge是MInecraft的主流API目前有50%的mod都在使用Forge</p>
+</li>
+<li>
+<p>Fabric是一个用于Minecraft1.14+ 的轻量Mod API</p>
+</li>
+<li>
+<p>Fabric API 必须与Fabric同时安装</p>
+</li>
+<li>
+<p>Optifabric 是 Optifine 的 Fabric 版本</p>
+</li>
+<li>
+<p><del>LiteLoader</del>  已过时</p>
+</li>
+</ol>
+<p>选择好附属安装后等待安装完成即可开始游戏。</p>
+<h2 id="四其他安装">四、其他安装
+</h2><h3 id="mod安装">Mod安装
+</h3><p>值得一提的是，目前Plain Craft Launcher 2、BakaXL 和Hello Minecraft! Launcher 等第三方启动器均支持启动器内Mod下载，为玩家提供了极大的便利。你也可以在互联网上下载mod文件。（mod的命名一般为 <code>.jar </code>）</p>
+<p>Mod下载完毕后，请放置在你游戏文件夹的 mods 文件夹下。</p>
+<p>注意：</p>
+<ol>
+<li>Mod需下载你所安装游戏的对应版本，如1.12.2 的 Forge 版，1.16.5 的 Fabric 版。下载不对应的版本可能会导致游戏出现错误。</li>
+<li>Mod的安装不是实时更新的，安装完毕后请重启游戏。</li>
+<li>部分mod会依赖于前置mod，需一起下载。</li>
+<li>部分mod之前可能会有冲突。</li>
+</ol>
+<h3 id="材质包安装">材质包安装
+</h3><p>材质包文件请自行在互联网上寻找，一般后缀名为<code>.zip</code>，无需解压，直接放在resourcepacks文件夹下即可在游戏中选择加载。</p>
+<p>与mod一样，材质包需要对应版本。</p>
+<h3 id="光影包安装">光影包安装
+</h3><p>光影包需安装Optifine或者Optifabric，也可安装IRIS Shader mod (Fabric) 后</p>
+<p>光影包文件请自行在互联网上寻找，一般后缀名为<code>.zip</code>，无需解压，直接放在shaderpacks文件夹下即可在游戏中的视频设置中选择加载。</p>
+<p>光影包一般没有版本限制，但有部分只支持OPtifine。</p>
+<h3 id="数据包安装">数据包安装
+</h3><p>数据包一般可以从网上下载等不同渠道获得。它应该是一个<code>.zip</code>文件或一个文件夹。</p>
+<ul>
+<li>有的<code>.zip</code>文件本身并不是一个数据包，需要解压后提取数据包文件夹。这种情况下，一般数据包来源会有安装流程介绍。</li>
+<li>如果不确定，可以打开这个<code>.zip</code>文件，查看里面是否有<code>data</code>文件夹和<code>pack.mcmeta</code>文件。如果有的话这个<code>.zip</code>文件就是数据包本体，可以直接放进<code>datapacks</code>文件夹。</li>
+<li>一个文件夹根目录中必须包含<code>pack.mcmeta</code>文件才可以被游戏读取并辨认为数据包。</li>
+</ul>
+<p>以下是在单人游戏中安装数据包的方法：</p>
+<ul>
+<li>打开<em>Minecraft</em>。</li>
+<li>选择你需要安装数据包的世界，点击“编辑”，然后点击“打开世界文件夹”。</li>
+<li>打开其中名为<code>datapacks</code>的文件夹，并将数据包<code>.zip</code>文件或文件夹放入其中。</li>
+<li>下次打开世界的时候这个数据包就会被加载，并且优先级最高。</li>
+</ul>
+<h3 id="整合包安装">整合包安装
+</h3><p>整合包也可直接在启动器中下载安装，也可从互联网下载。</p>
+<p>标准的整合包为<code>.zip</code>格式可直接拖入第三方启动器进行下载安装。</p>
+<p>非标准的整合包可能为一个游戏的打包压缩包，需解压后运行</p>
+<h2 id="五个性化">五、个性化
+</h2><ol>
+<li>
+<p>更改皮肤</p>
+<ul>
+<li>
+<p>到此为止，你可能想要摆脱 Steve 和 Alex 的默认皮肤，更改一个属于自己的、更有个性的皮肤。</p>
+</li>
+<li>
+<p>皮肤的存储文件命名一般是<code>*.png</code>，可以自行使用工具（如MCSkin 3D）绘制，或在互联网上下载。</p>
+</li>
+<li>
+<p>正版用户可以直接前往 Minecraft 官方网站 或者 官方启动器更改皮肤。</p>
+<p>第三方登录可以在所属皮肤站更改皮肤。</p>
+<p><img src="/p/minecraft-tutorial/11.png"
+	width="1933"
+	height="1131"
+	srcset="/p/minecraft-tutorial/11_hu7075851673681659982.png 480w, /p/minecraft-tutorial/11_hu750725243596086143.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="410px"
+	
+></p>
+<p><img src="/p/minecraft-tutorial/10.png"
+	width="2560"
+	height="1359"
+	srcset="/p/minecraft-tutorial/10_hu10823310727462577117.png 480w, /p/minecraft-tutorial/10_hu11483557610250186713.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="188"
+		data-flex-basis="452px"
+	
+></p>
+</li>
+</ul>
+</li>
+<li>
+<p>更改披风</p>
+<ul>
+<li>
+<p>不像皮肤，披风不能被自由定制。玩家只能通过一些活动或事件来获取特定的披风。如果玩家拥有任何披风，就可以选择一件来装备上。一部分客户端Mod可能会提供其自定义的披风，但这些披风对玩家自己或其他安装了相同客户端Mod的玩家以外通常是不可见的。</p>
+</li>
+<li>
+<p>更换方式与更改皮肤方式一致。</p>
+</li>
+<li>
+<p>目前最常见的披风主要有三个。</p>
+<p><img src="/p/minecraft-tutorial/12.png"
+	width="1993"
+	height="797"
+	srcset="/p/minecraft-tutorial/12_hu140471211698231259.png 480w, /p/minecraft-tutorial/12_hu12024175537730641830.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="250"
+		data-flex-basis="600px"
+	
+></p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="六游玩教程">六、游玩教程
+</h2><p>未完待续</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/minecraft/">Minecraft</a>
+        
+            <a href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 Feb 24, 2024 13:27 UTC
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/server-intro/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Block Infinite Team 介绍</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/fold-craft-launcher-tutorial/">
+        
+        
+            <div class="article-image">
+                <img src="/p/fold-craft-launcher-tutorial/Fold%20Craft%20Launcher.b0ce57f384ab458086af66135211b3f6_hu17482571707749066225.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Fold Craft Launcher 教程"
+                        data-key="fold-craft-launcher-tutorial" 
+                        data-hash="md5-sM5X84SrRYCGr2YTUhGz9g==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Fold Craft Launcher 教程</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2024 Tomato
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.27.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

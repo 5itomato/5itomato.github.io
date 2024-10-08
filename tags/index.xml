@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on 番茄炒西红柿</title>
+        <link>https://5itomato.github.io/tags/</link>
+        <description>Recent content in Tags on 番茄炒西红柿</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Tomato</copyright>
+        <lastBuildDate>Sun, 19 May 2024 00:14:11 +0000</lastBuildDate><atom:link href="https://5itomato.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Minecraft</title>
+        <link>https://5itomato.github.io/tags/minecraft/</link>
+        <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://5itomato.github.io/tags/minecraft/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>计算机</title>
+        <link>https://5itomato.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+        <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://5itomato.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>学习</title>
+        <link>https://5itomato.github.io/tags/%E5%AD%A6%E4%B9%A0/</link>
+        <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://5itomato.github.io/tags/%E5%AD%A6%E4%B9%A0/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Git</title>
+        <link>https://5itomato.github.io/tags/git/</link>
+        <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://5itomato.github.io/tags/git/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>C语言</title>
+        <link>https://5itomato.github.io/tags/c%E8%AF%AD%E8%A8%80/</link>
+        <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://5itomato.github.io/tags/c%E8%AF%AD%E8%A8%80/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>教程</title>
+        <link>https://5itomato.github.io/tags/%E6%95%99%E7%A8%8B/</link>
+        <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://5itomato.github.io/tags/%E6%95%99%E7%A8%8B/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Java</title>
+        <link>https://5itomato.github.io/tags/java/</link>
+        <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://5itomato.github.io/tags/java/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Java on 番茄炒西红柿</title>
+        <link>https://5itomato.github.io/tags/java/</link>
+        <description>Recent content in Java on 番茄炒西红柿</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Tomato</copyright>
+        <lastBuildDate>Fri, 19 Apr 2024 23:52:00 +0000</lastBuildDate><atom:link href="https://5itomato.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>JavaSE学习随笔</title>
+        <link>https://5itomato.github.io/p/java-learning/</link>
+        <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://5itomato.github.io/p/java-learning/</guid>
+        <description>&lt;img src="https://5itomato.github.io/p/java-learning/java.png" alt="Featured image of post JavaSE学习随笔" /&gt;&lt;h1 id=&#34;java-学习随笔&#34;&gt;Java 学习随笔
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言
+&lt;/h2&gt;&lt;p&gt;（前言部分于2024.04.19补充）&lt;/p&gt;
+&lt;p&gt;学习 Java 编程是最早是在第一波疫情期间在家上网课时，当时上网课没认真听，想着总不能一事无成，就打算学习一种编程语言，正好当时（包括现在）沉迷于Minecraft: Java Edition，就选择了 Java ，虽然没用上（bushi）。更重要的是认识了一位正好在学Java基础的前辈，就在她的指引下学习了浙大翁恺的课程&lt;a class=&#34;link&#34; href=&#34;https://www.icourse163.org/course/0809ZJU013-1001541001&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《零基础学Java语言》&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;计算&#34;&gt;计算
+&lt;/h2&gt;&lt;h3 id=&#34;计算机与编程语言&#34;&gt;计算机与编程语言
+&lt;/h3&gt;&lt;h3 id=&#34;第一个java程序&#34;&gt;第一个Java程序
+&lt;/h3&gt;&lt;h3 id=&#34;变量与计算&#34;&gt;变量与计算
+&lt;/h3&gt;&lt;h3 id=&#34;浮点数计算&#34;&gt;浮点数计算
+&lt;/h3&gt;&lt;h2 id=&#34;判断&#34;&gt;判断
+&lt;/h2&gt;&lt;h3 id=&#34;比较&#34;&gt;比较
+&lt;/h3&gt;&lt;h3 id=&#34;判断-1&#34;&gt;判断
+&lt;/h3&gt;&lt;h3 id=&#34;分支&#34;&gt;分支
+&lt;/h3&gt;&lt;h3 id=&#34;判断语句常见错误&#34;&gt;判断语句常见错误
+&lt;/h3&gt;&lt;h2 id=&#34;循环&#34;&gt;循环
+&lt;/h2&gt;&lt;h3 id=&#34;循环-1&#34;&gt;循环
+&lt;/h3&gt;&lt;h2 id=&#34;循环控制&#34;&gt;循环控制
+&lt;/h2&gt;&lt;h3 id=&#34;for-循环&#34;&gt;for 循环
+&lt;/h3&gt;&lt;h3 id=&#34;循环控制-1&#34;&gt;循环控制
+&lt;/h3&gt;&lt;h2 id=&#34;数组&#34;&gt;数组
+&lt;/h2&gt;&lt;h3 id=&#34;数组-1&#34;&gt;数组
+&lt;/h3&gt;&lt;h3 id=&#34;数组计算&#34;&gt;数组计算
+&lt;/h3&gt;&lt;h3 id=&#34;二维数组&#34;&gt;二维数组
+&lt;/h3&gt;&lt;h2 id=&#34;使用对象&#34;&gt;使用对象
+&lt;/h2&gt;&lt;h3 id=&#34;字符类型&#34;&gt;字符类型
+&lt;/h3&gt;&lt;h3 id=&#34;包裹类型&#34;&gt;包裹类型
+&lt;/h3&gt;&lt;h3 id=&#34;字符串&#34;&gt;字符串
+&lt;/h3&gt;&lt;h2 id=&#34;函数&#34;&gt;函数
+&lt;/h2&gt;&lt;h3 id=&#34;函数定义与调用&#34;&gt;函数定义与调用
+&lt;/h3&gt;&lt;h3 id=&#34;函数参数与函数内的调用&#34;&gt;函数参数与函数内的调用
+&lt;/h3&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

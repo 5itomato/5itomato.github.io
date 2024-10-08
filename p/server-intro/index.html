@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="BIT 服务器介绍">
+<title>Block Infinite Team 介绍</title>
+
+<link rel='canonical' href='https://5itomato.github.io/p/server-intro/'>
+
+<link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="Block Infinite Team 介绍">
+<meta property='og:description' content="BIT 服务器介绍">
+<meta property='og:url' content='https://5itomato.github.io/p/server-intro/'>
+<meta property='og:site_name' content='番茄炒西红柿'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Minecraft' /><meta property='article:published_time' content='2024-05-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-05-19T00:14:11&#43;00:00'/>
+<meta name="twitter:title" content="Block Infinite Team 介绍">
+<meta name="twitter:description" content="BIT 服务器介绍">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu4993933478544221023.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">😀</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">番茄炒西红柿</a></h1>
+            <h2 class="site-description">无限进步！</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/5itomato'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/FQ_Block'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://5itomato.github.io/" selected>中文</option>
+                                
+                                    <option value="https://5itomato.github.io/en/" >English</option>
+                                
+                                    <option value="https://5itomato.github.io/ja/" >日本語</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#关于我们">关于我们</a></li>
+    <li><a href="#信息公开">信息公开</a>
+      <ol>
+        <li><a href="#服务器核心">服务器核心</a></li>
+        <li><a href="#插件列表">插件列表</a></li>
+        <li><a href="#mod-列表">mod 列表</a></li>
+      </ol>
+    </li>
+    <li><a href="#游玩规范">游玩规范</a></li>
+    <li><a href="#交流平台规范">交流平台规范</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/minecraft/" style="background-color: #2a9d8f; color: #fff;">
+                Minecraft
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/server-intro/">Block Infinite Team 介绍</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            BIT 服务器介绍
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">May 05, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="关于我们">关于我们
+</h2><h2 id="信息公开">信息公开
+</h2><h3 id="服务器核心">服务器核心
+</h3><p>本服务器使用<code>fabric</code>作为服务器核心，并在此基础上使用<code>mcdreforged</code>守护服务器进程，实现插件挂载。此外，还使用了<code>velocity</code>作为反向代理核心。</p>
+<h3 id="插件列表">插件列表
+</h3><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">名称</th>
+          <th style="text-align: left">维护者</th>
+          <th style="text-align: left">功能</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><a class="link" href="https://mcdreforged.com/zh-CN/plugin/beep"  target="_blank" rel="noopener"
+    >Beep</a></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/Fallen-Breath"  target="_blank" rel="noopener"
+    >Fallen_Breath</a>, <a class="link" href="https://github.com/LucunJi"  target="_blank" rel="noopener"
+    >LucunJi</a></td>
+          <td style="text-align: left">@某人，@ all可作用于所有玩家。使用两个@@小心被打</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a class="link" href="https://mcdreforged.com/zh-CN/plugin/daycount_nbt"  target="_blank" rel="noopener"
+    >DayCount NBT</a></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/alex3236"  target="_blank" rel="noopener"
+    >Alex3236</a></td>
+          <td style="text-align: left">获取和输出服务器开服时间</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a class="link" href="https://mcdreforged.com/zh-CN/plugin/here"  target="_blank" rel="noopener"
+    >Here</a></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/Fallen-Breath"  target="_blank" rel="noopener"
+    >Fallen_Breath</a>, <a class="link" href="https://github.com/nathan21hz"  target="_blank" rel="noopener"
+    >nathan21hz</a>, <a class="link" href="https://github.com/Ra1ny-Yuki"  target="_blank" rel="noopener"
+    >Ra1ny_Yuki</a></td>
+          <td style="text-align: left">显示坐标并高亮玩家</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a class="link" href="https://mcdreforged.com/zh-CN/plugin/location_marker"  target="_blank" rel="noopener"
+    >Location Marker</a></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/Fallen-Breath"  target="_blank" rel="noopener"
+    >Fallen_Breath</a>, <a class="link" href="https://github.com/Van-Nya"  target="_blank" rel="noopener"
+    >Van_Involution</a></td>
+          <td style="text-align: left">一个服务端共享路标点管理器</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a class="link" href="https://mcdreforged.com/zh-CN/plugin/minecraft_data_api"  target="_blank" rel="noopener"
+    >Minecraft Data API</a></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/Fallen-Breath"  target="_blank" rel="noopener"
+    >Fallen_Breath</a></td>
+          <td style="text-align: left">一个用获得玩家信息等数据的的 API</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a class="link" href="https://mcdreforged.com/zh-CN/plugin/prime_backup"  target="_blank" rel="noopener"
+    >Prime Backup</a></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/Fallen-Breath"  target="_blank" rel="noopener"
+    >Fallen_Breath</a></td>
+          <td style="text-align: left">一个强大的MCDR备份插件，一套先进的Minecraft存档备份解决方案</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a class="link" href="https://mcdreforged.com/zh-CN/plugin/mcd_seen"  target="_blank" rel="noopener"
+    >Seen</a></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/Pandaria98"  target="_blank" rel="noopener"
+    >Pandaria</a>, <a class="link" href="https://github.com/Fallen-Breath"  target="_blank" rel="noopener"
+    >Fallen_Breath</a>, <a class="link" href="https://github.com/Ra1ny-Yuki"  target="_blank" rel="noopener"
+    >Ra1ny_Yuki</a></td>
+          <td style="text-align: left">Show laziness rank easily</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a class="link" href="https://mcdreforged.com/zh-CN/plugin/stats_helper"  target="_blank" rel="noopener"
+    >Stats Helper</a></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/Fallen-Breath"  target="_blank" rel="noopener"
+    >Fallen_Breath</a></td>
+          <td style="text-align: left">一个 Minecraft 统计信息助手</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a class="link" href="https://mcdreforged.com/zh-CN/plugin/mcd_task"  target="_blank" rel="noopener"
+    >Task</a></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/Pandaria98"  target="_blank" rel="noopener"
+    >Pandaria</a>, <a class="link" href="https://github.com/Fallen-Breath"  target="_blank" rel="noopener"
+    >Fallen_Breath</a>, <a class="link" href="https://github.com/Ra1ny-Yuki"  target="_blank" rel="noopener"
+    >Ra1ny_Yuki</a></td>
+          <td style="text-align: left">用于展示进行中的工程任务的插件</td>
+      </tr>
+  </tbody>
+</table></div>
+<h3 id="mod-列表">mod 列表
+</h3><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">名称</th>
+          <th style="text-align: left">主要维护者</th>
+          <th style="text-align: left">版本</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong><a class="link" href="https://github.com/FabricMC/fabric"  target="_blank" rel="noopener"
+    >Fabric API</a></strong></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/FabricMC/fabric/commits?author=modmuss50"  target="_blank" rel="noopener"
+    >modmuss50</a></td>
+          <td style="text-align: left">0.97.8</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong><a class="link" href="https://github.com/gnembon/fabric-carpet"  target="_blank" rel="noopener"
+    >Fabric Carpet</a></strong></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/gnembon"  target="_blank" rel="noopener"
+    >gnembon</a></td>
+          <td style="text-align: left">1.4.141</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong><a class="link" href="https://github.com/TISUnion/Carpet-TIS-Addition"  target="_blank" rel="noopener"
+    >Carpet TIS Addition</a></strong></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/TISUnion/Carpet-TIS-Addition/commits?author=Fallen-Breath"  target="_blank" rel="noopener"
+    >Fallen-Breath</a></td>
+          <td style="text-align: left">1.59</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong><a class="link" href="https://github.com/CaffeineMC/lithium-fabric"  target="_blank" rel="noopener"
+    >Lithium (for Fabric)</a></strong></td>
+          <td style="text-align: left"><a class="link" href="https://github.com/CaffeineMC/lithium-fabric/commits?author=2No2Name"  target="_blank" rel="noopener"
+    >2No2Name</a></td>
+          <td style="text-align: left">0.12.3</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="游玩规范">游玩规范
+</h2><p><strong>Block Infinite Team (BIT) Minecraft</strong> <strong>服务器公告</strong></p>
+<p>欢迎来到 Block Infinite Team (简称 BIT) 服务器！我们很高兴能与你分享这个独特的 Minecraft 世界，期待与你一同探索、建设和创新。以下是一些重要信息和规则，请所有玩家仔细阅读并遵守。</p>
+<p><strong>服务器信息：</strong></p>
+<ul>
+<li><strong>服务器名称</strong>: Block Infinite Team (BIT)</li>
+<li><strong>服务器地址</strong>: mc.itomato.top</li>
+<li><strong>主要玩法</strong>: 生存、建筑、红石</li>
+</ul>
+<p><strong>服务器规则：</strong></p>
+<ol>
+<li><strong>严禁使用作弊手段破坏游戏平衡</strong>：包括但不限于矿物透视、boatfly，以及魔改的 mod、资源包等。</li>
+<li><strong>尊重他人</strong>：严禁人身攻击、辱骂、讥讽他人。</li>
+<li><strong>严禁讨论政治话题</strong>：在服务器有关的交流平台上，不允许讨论任何政治话题。</li>
+<li><strong>尊重他人作品</strong>：不得恶意损毁他人作品。</li>
+</ol>
+<p><strong>违规处理：</strong></p>
+<ul>
+<li>任何违反以上规则的行为，将由群内成员讨论投票决定是否进行封禁处理。超过 1/5 的成员投票通过封禁即可生效（服务器管理员记作两票）。</li>
+</ul>
+<p><strong>活动与事件：</strong></p>
+<ul>
+<li>本服务器会不定期举行各种活动，例如庆祝传统节日等，欢迎大家积极参与。</li>
+</ul>
+<p><strong>联系方式：</strong></p>
+<ul>
+<li>服务器QQ群：678272357</li>
+</ul>
+<p>希望大家在 Block Infinite Team (BIT) 服务器度过愉快的时光，与我们一同创造一个美好的 Minecraft 世界！</p>
+<p>祝游戏愉快！</p>
+<p><strong>Block Infinite Team</strong> <strong>管理团队</strong></p>
+<h2 id="交流平台规范">交流平台规范
+</h2><p><strong>Block Infinite Team (BIT)</strong> <strong>交流平台规范公告</strong></p>
+<p>为了维护 Block Infinite Team (简称 BIT) 社区的和谐与公平，我们制定了一系列规范，请所有成员严格遵守。触犯以下规定者将被禁言或永久踢出，视情况严重程度进行处理。</p>
+<p><strong>严禁行为：</strong></p>
+<ol>
+<li><strong>讨论或进行网络攻击、恶意的黑客行为、开挂</strong>
+<ul>
+<li>严禁讨论或参与任何形式的网络攻击、恶意黑客行为以及使用作弊工具。</li>
+</ul>
+</li>
+<li><strong>在服务器、活动中作弊、钻空子、破坏公平</strong>
+<ul>
+<li>在服务器或任何相关活动中作弊、钻空子或任何破坏游戏公平性的行为都将受到严厉惩罚。</li>
+</ul>
+</li>
+</ol>
+<p><strong>不建议行为：</strong></p>
+<p>这些行为视情况严重程度，可能会导致禁言或警告：</p>
+<ol>
+<li><strong>刻意炫耀或鄙视配置</strong>
+<ul>
+<li>不要故意炫耀或贬低他人的设备配置，如帧数、内存、显卡等。</li>
+</ul>
+</li>
+<li><strong>坑新</strong>
+<ul>
+<li>严禁恶意误导新玩家或鄙视新玩家，这些行为可能会导致严重后果。</li>
+</ul>
+</li>
+<li><strong>群名片</strong>
+<ul>
+<li>群名片不得高仿他人、发布广告、含有误导性信息或控制字符。</li>
+</ul>
+</li>
+<li><strong>破坏讨论环境</strong>
+<ul>
+<li>禁止任何阴阳怪气、引战、刷屏或低质量发言等破坏讨论环境的行为。</li>
+</ul>
+</li>
+</ol>
+<p><strong>适度行为：</strong></p>
+<p>这些行为需要略微注意，但过度也会受到处理：</p>
+<ol>
+<li><strong>梯子</strong>
+<ul>
+<li>讨论梯子问题时不能发截图或分发相关资源，仅可适度讨论。</li>
+</ul>
+</li>
+<li><strong>广告</strong>
+<ul>
+<li>广告每五天只能发布一次，且必须与 Minecraft 相关。</li>
+</ul>
+</li>
+</ol>
+<p><strong>违规处理补充说明：</strong></p>
+<ul>
+<li>如果违反群规、故意作死或在管理劝阻以后依旧继续不适宜的话题，则可能被警告。如果严重违规或者多次被警告将会被永久踢出。</li>
+<li>群公告的群规只是一个衡量规则，就算某些行为群规中并没提到，但如果引人不适的话，依旧会被警告并处以相应惩罚。</li>
+<li>在你被警告时，大概率也会一起被禁言，禁言时间视恶劣程度不定。</li>
+</ul>
+<p><strong>联系方式：</strong></p>
+<ul>
+<li>服务器QQ群：678272357</li>
+</ul>
+<p>我们希望每个成员都能为维护 BIT 社区的良好氛围尽一份力，共同营造一个友好、公平和充满乐趣的交流平台。感谢大家的理解与合作！</p>
+<p><strong>Block Infinite Team</strong> <strong>管理团队</strong></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/minecraft/">Minecraft</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 May 19, 2024 00:14 UTC
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/fold-craft-launcher-tutorial/">
+        
+        
+            <div class="article-image">
+                <img src="/p/fold-craft-launcher-tutorial/Fold%20Craft%20Launcher.b0ce57f384ab458086af66135211b3f6_hu17482571707749066225.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Fold Craft Launcher 教程"
+                        data-key="fold-craft-launcher-tutorial" 
+                        data-hash="md5-sM5X84SrRYCGr2YTUhGz9g==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Fold Craft Launcher 教程</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/minecraft-tutorial/">
+        
+        
+            <div class="article-image">
+                <img src="/p/minecraft-tutorial/wallpaper_minecraft_bedrock_edition_2560x1440.139a3d6dbe847527a7caefef83c8bc20_hu7912853775439803274.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Minecraft 教程"
+                        data-key="minecraft-tutorial" 
+                        data-hash="md5-E5o9bb6EdSenyu/vg8i8IA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Minecraft 教程</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2024 Tomato
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.27.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>计算机 on 番茄炒西红柿</title>
+        <link>https://5itomato.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+        <description>Recent content in 计算机 on 番茄炒西红柿</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Tomato</copyright>
+        <lastBuildDate>Sat, 27 Apr 2024 16:00:16 +0000</lastBuildDate><atom:link href="https://5itomato.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CS 学习随笔</title>
+        <link>https://5itomato.github.io/p/cs-learning/</link>
+        <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://5itomato.github.io/p/cs-learning/</guid>
+        <description>&lt;h1 id=&#34;第-1-章-绪论&#34;&gt;第 1 章 绪论
+&lt;/h1&gt;&lt;h2 id=&#34;heading&#34;&gt;
+&lt;/h2&gt;&lt;h1 id=&#34;第-2-章-数字系统&#34;&gt;第 2 章 数字系统
+&lt;/h1&gt;&lt;h2 id=&#34;引言&#34;&gt;引言
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;数字系统&lt;/strong&gt; 定义如何使用独特符号来表示一个数字。&lt;/p&gt;
+&lt;p&gt;如：${(2A)} _ {16}$ 和  ${(52)} _ {8}$ 都是表示相同的数量${(42)}_{10}$&lt;/p&gt;
+&lt;h2 id=&#34;位置化数字系统&#34;&gt;位置化数字系统
+&lt;/h2&gt;&lt;p&gt;在位置化数字系统中，数字中符号所占据的位置决定了其表示的值。在该系统中。数字的表示如下：
+$$
+\pm {\left ( S_{K-1}\cdots S_2S_1S_0S_{-1}S_{-2}\cdots S_{-L} \right )} _b
+$$&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
