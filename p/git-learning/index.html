@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="git学习记录">
 <title>Git学习随笔</title>
 
-<link rel='canonical' href='http://localhost:1313/p/git-learning/'>
+<link rel='canonical' href='https://5itomato.github.io/p/git-learning/'>
 
 <link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="Git学习随笔">
 <meta property='og:description' content="git学习记录">
-<meta property='og:url' content='http://localhost:1313/p/git-learning/'>
+<meta property='og:url' content='https://5itomato.github.io/p/git-learning/'>
 <meta property='og:site_name' content='番茄炒西红柿'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='学习' /><meta property='article:tag' content='Git' /><meta property='article:published_time' content='2024-04-18T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-04-18T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/p/git-learning/git.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='学习' /><meta property='article:tag' content='Git' /><meta property='article:published_time' content='2024-04-18T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-15T21:33:17&#43;00:00'/><meta property='og:image' content='https://5itomato.github.io/p/git-learning/git.png' />
 <meta name="twitter:title" content="Git学习随笔">
 <meta name="twitter:description" content="git学习记录"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/p/git-learning/git.png' />
+    <meta name="twitter:image" content='https://5itomato.github.io/p/git-learning/git.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -234,11 +234,11 @@
 
                             <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
                                 
-                                    <option value="http://localhost:1313/" selected>中文</option>
+                                    <option value="https://5itomato.github.io/" selected>中文</option>
                                 
-                                    <option value="http://localhost:1313/en/" >English</option>
+                                    <option value="https://5itomato.github.io/en/" >English</option>
                                 
-                                    <option value="http://localhost:1313/ja/" >日本語</option>
+                                    <option value="https://5itomato.github.io/ja/" >日本語</option>
                                 
                             </select>
                         </li>
@@ -293,15 +293,50 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#初始化-git">初始化 Git</a></li>
-    <li><a href="#检出仓库">检出仓库</a></li>
-    <li><a href="#工作流">工作流</a></li>
-    <li><a href="#添加和提交">添加和提交</a></li>
-    <li><a href="#推送改动">推送改动</a></li>
-    <li><a href="#分支">分支</a></li>
-    <li><a href="#更新与合并">更新与合并</a></li>
-    <li><a href="#替换本地改动">替换本地改动</a></li>
-    <li><a href="#推荐阅读">推荐阅读</a></li>
+    <li>
+      <ol>
+        <li><a href="#什么是-git">什么是 Git？</a></li>
+      </ol>
+    </li>
+    <li><a href="#初始化-git-仓库">初始化 Git 仓库</a></li>
+    <li><a href="#克隆远程仓库">克隆远程仓库</a></li>
+    <li><a href="#git-的工作流三棵树">Git 的工作流：三棵树</a></li>
+    <li><a href="#添加和提交修改">添加和提交修改</a>
+      <ol>
+        <li><a href="#添加文件到暂存区">添加文件到暂存区</a></li>
+        <li><a href="#提交修改到仓库">提交修改到仓库</a></li>
+      </ol>
+    </li>
+    <li><a href="#远程仓库与推送">远程仓库与推送</a>
+      <ol>
+        <li><a href="#添加远程仓库">添加远程仓库</a></li>
+        <li><a href="#推送本地修改到远程仓库">推送本地修改到远程仓库</a></li>
+      </ol>
+    </li>
+    <li><a href="#分支管理">分支管理</a>
+      <ol>
+        <li><a href="#创建与切换分支">创建与切换分支</a></li>
+        <li><a href="#删除分支">删除分支</a></li>
+        <li><a href="#推送分支到远程">推送分支到远程</a></li>
+      </ol>
+    </li>
+    <li><a href="#拉取与合并更新">拉取与合并更新</a>
+      <ol>
+        <li><a href="#更新本地代码pull">更新本地代码（<code>pull</code>）</a></li>
+        <li><a href="#合并分支">合并分支</a></li>
+        <li><a href="#查看分支间的差异">查看分支间的差异</a></li>
+      </ol>
+    </li>
+    <li><a href="#替换本地修改">替换本地修改</a>
+      <ol>
+        <li><a href="#丢弃工作区的未提交修改">丢弃工作区的未提交修改</a></li>
+        <li><a href="#丢弃所有本地修改强制重置">丢弃所有本地修改（强制重置）</a></li>
+      </ol>
+    </li>
+    <li><a href="#git-常用操作总结">Git 常用操作总结</a></li>
+    <li><a href="#常见问题与解决方案">常见问题与解决方案</a></li>
+    <li><a href="#推荐资源">推荐资源</a></li>
+    <li><a href="#结语">结语</a></li>
   </ol>
 </nav>
         </div>
@@ -382,7 +417,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -397,51 +432,68 @@
     <section class="article-content">
     
     
-    <h1 id="git操作速记">Git操作速记
-</h1><p>什么是Git？</p>
-<ul>
-<li>Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。</li>
-<li>Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</li>
-<li>Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。</li>
+    <h1 id="git-基础操作速记指南">Git 基础操作速记指南
+</h1><h3 id="什么是-git">什么是 Git？
+</h3><ul>
+<li><strong>Git</strong> 是一个开源的 <strong>分布式版本控制系统</strong>，用于高效地管理代码版本，适用于任何规模的项目。</li>
+<li>它由 <strong>Linus Torvalds</strong> 在 2005 年开发，用于协作管理 <strong>Linux 内核</strong> 的代码版本。</li>
+<li>与传统的集中式版本控制工具（如 <strong>CVS</strong>、<strong>Subversion</strong>）不同，Git 采用分布式架构，使每个开发者的本地仓库都包含完整的历史记录和版本信息。</li>
 </ul>
-<h2 id="初始化-git">初始化 Git
-</h2><div class="highlight"><div class="chroma">
+<hr>
+<h2 id="初始化-git-仓库">初始化 Git 仓库
+</h2><p>在项目目录下执行以下命令来初始化一个 Git 仓库：</p>
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git init
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="检出仓库">检出仓库
-</h2><div class="highlight"><div class="chroma">
+</div><blockquote>
+<p>这会创建一个 <code>.git</code> 目录，其中存储了 Git 所需的所有元数据和历史记录。</p>
+</blockquote>
+<hr>
+<h2 id="克隆远程仓库">克隆远程仓库
+</h2><p>若要克隆一个现有的仓库，可以使用以下命令：</p>
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git clone /path/to/repository
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 从本地路径克隆仓库</span>
+</span></span><span class="line"><span class="cl">git clone /path/to/repository
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 从远程服务器克隆仓库</span>
 </span></span><span class="line"><span class="cl">git clone username@host:/path/to/repository
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 从 HTTPS 或 SSH 地址克隆</span>
+</span></span><span class="line"><span class="cl">git clone https://github.com/user/repository.git
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="工作流">工作流
-</h2><p>你的本地仓库由 git 维护的三棵“树”组成。</p>
-<ul>
-<li>
-<p>第一个是你的 <code>工作目录</code>，它持有实际文件</p>
-</li>
-<li>
-<p>第二个是 <code>暂存区（Index）</code>，它像个缓存区域，临时保存你的改动</p>
-</li>
-<li>
-<p>最后是 <code>HEAD</code>，它指向你最后一次提交的结果</p>
-</li>
-</ul>
-<p><img src="/p/git-learning/1.png"
+</div><hr>
+<h2 id="git-的工作流三棵树">Git 的工作流：三棵树
+</h2><p>Git 的工作流由三棵“树”组成：</p>
+<ol>
+<li><strong>工作区（Working Directory）</strong>：实际保存你的项目文件。</li>
+<li><strong>暂存区（Staging Area / Index）</strong>：临时保存修改的文件，等待提交。</li>
+<li><strong>HEAD</strong>：指向当前分支的最新提交记录。</li>
+</ol>
+<p><strong>可视化示意图：</strong>
+<img src="/p/git-learning/1.png"
 	width="1478"
 	height="583"
 	srcset="/p/git-learning/1_hu2060114268529817648.png 480w, /p/git-learning/1_hu14453283340395508666.png 1024w"
 	loading="lazy"
+	
+		alt="Git 三棵树"
 	
 	
 		class="gallery-image" 
@@ -449,50 +501,102 @@
 		data-flex-basis="608px"
 	
 ></p>
-<h2 id="添加和提交">添加和提交
-</h2><div class="highlight"><div class="chroma">
+<hr>
+<h2 id="添加和提交修改">添加和提交修改
+</h2><h3 id="添加文件到暂存区">添加文件到暂存区
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add &lt;filename&gt;         <span class="c1"># 添加指定文件</span>
+</span></span><span class="line"><span class="cl">git add .                  <span class="c1"># 添加所有修改的文件</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="提交修改到仓库">提交修改到仓库
+</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git add &lt;filename&gt;
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git commit -m <span class="s2">&#34;描述你的改动内容&#34;</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git commit -m &#34;[comment]&#34;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="推送改动">推送改动
-</h2><p>从<code>HEAD</code>推送到<code>远端仓库</code>，其中master可以替换成任何分支。</p>
+</div><blockquote>
+<p>提交时务必写清楚注释，简洁且易于理解，方便团队协作。</p>
+</blockquote>
+<hr>
+<h2 id="远程仓库与推送">远程仓库与推送
+</h2><h3 id="添加远程仓库">添加远程仓库
+</h3><p>将本地仓库与远程仓库关联：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git push origin master
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote add origin &lt;远程仓库地址&gt;
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：</p>
-<div class="highlight"><div class="chroma">
+</div><h3 id="推送本地修改到远程仓库">推送本地修改到远程仓库
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push origin master      <span class="c1"># 推送到主分支（master）</span>
+</span></span><span class="line"><span class="cl">git push origin &lt;branch&gt;    <span class="c1"># 推送到指定分支</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id="分支管理">分支管理
+</h2><p>Git 分支允许你在开发新功能时，与主分支（如 <code>master</code>）隔离，避免影响稳定的代码。</p>
+<h3 id="创建与切换分支">创建与切换分支
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 创建一个新分支并切换到该分支</span>
+</span></span><span class="line"><span class="cl">git checkout -b feature_x
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 切换回主分支</span>
+</span></span><span class="line"><span class="cl">git checkout master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="删除分支">删除分支
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git branch -d feature_x     <span class="c1"># 删除本地分支</span>
+</span></span><span class="line"><span class="cl">git push origin --delete feature_x  <span class="c1"># 删除远程分支</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="推送分支到远程">推送分支到远程
+</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git remote add origin &lt;server&gt;
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push origin &lt;branch&gt;
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>如此你就能够将你的改动推送到所添加的服务器上去了。</p>
-<h2 id="分支">分支
-</h2><p>分支是用来将特性开发绝缘开来的。在你创建仓库的时候，<em>master</em> 是“默认的”分支。在其他分支上进行开发，完成后再将它们合并到主分支上。</p>
-<p><img src="/p/git-learning/2.png"
+</div><p><strong>分支示意图：</strong>
+<img src="/p/git-learning/2.png"
 	width="1467"
 	height="554"
 	srcset="/p/git-learning/2_hu257794646803229572.png 480w, /p/git-learning/2_hu4429149227812070672.png 1024w"
 	loading="lazy"
+	
+		alt="分支管理"
 	
 	
 		class="gallery-image" 
@@ -500,131 +604,191 @@
 		data-flex-basis="635px"
 	
 ></p>
-<ul>
-<li>
-<p>创建一个叫做“feature_x”的分支，并切换过去：</p>
+<hr>
+<h2 id="拉取与合并更新">拉取与合并更新
+</h2><h3 id="更新本地代码pull">更新本地代码（<code>pull</code>）
+</h3><p>从远程仓库获取最新改动并合并到当前分支：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git checkout -b feature_x
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git pull
 </span></span></code></pre></td></tr></table>
 </div>
-</div></li>
-<li>
-<p>切换回主分支：</p>
+</div><h3 id="合并分支">合并分支
+</h3><p>将其他分支的代码合并到当前分支：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git checkout master
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git merge &lt;branch&gt;
 </span></span></code></pre></td></tr></table>
 </div>
-</div></li>
-<li>
-<p>再把新建的分支删掉：</p>
+</div><h3 id="查看分支间的差异">查看分支间的差异
+</h3><p>在合并前，可以查看分支间的差异：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git branch -d feature_x
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git diff &lt;source_branch&gt; &lt;target_branch&gt;
 </span></span></code></pre></td></tr></table>
 </div>
-</div></li>
-<li>
-<p>除非你将分支推送到远端仓库，不然该分支就是 <em>不为他人所见的</em>：</p>
-<div class="highlight"><div class="chroma">
+</div><hr>
+<h2 id="替换本地修改">替换本地修改
+</h2><h3 id="丢弃工作区的未提交修改">丢弃工作区的未提交修改
+</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git push origin &lt;branch&gt;
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout -- &lt;filename&gt;   <span class="c1"># 使用最新提交替换工作区的文件</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div></li>
-</ul>
-<h2 id="更新与合并">更新与合并
-</h2><ul>
-<li>
-<p>要更新你的本地仓库至最新改动，执行：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git pull
-</span></span></code></pre></td></tr></table>
-</div>
-</div></li>
-<li>
-<p>以在你的工作目录中 <em>获取（fetch）</em> 并 <em>合并（merge）</em> 远端的改动。
-要合并其他分支到你的当前分支（例如 master），执行：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git merge &lt;branch&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div></li>
-<li>
-<p>在这两种情况下，git 都会尝试去自动合并改动。遗憾的是，这可能并非每次都成功，并可能出现<em>冲突（conflicts）</em>。 这时候就需要你修改这些文件来手动合并这些<em>冲突（conflicts）</em>。改完之后，你需要执行如下命令以将它们标记为合并成功：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git add &lt;filename&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div></li>
-<li>
-<p>在合并改动之前，你可以使用如下命令预览差异：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">`git diff &lt;source_branch&gt; &lt;target_branch&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div></li>
-</ul>
-<h2 id="替换本地改动">替换本地改动
-</h2><ul>
-<li>
-<p>假如你操作失误（当然，这最好永远不要发生），你可以使用如下命令替换掉本地改动：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git checkout -- &lt;filename&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>此命令会使用 HEAD 中的最新内容替换掉你的工作目录中的文件。已添加到暂存区的改动以及新文件都不会受到影响。</p>
-</li>
-<li>
-<p>假如你想丢弃你在本地的所有改动与提交，可以到服务器上获取最新的版本历史，并将你本地主分支指向它：</p>
+</div><h3 id="丢弃所有本地修改强制重置">丢弃所有本地修改（强制重置）
+</h3><p>重置本地仓库至远程仓库的最新版本：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git fetch origin
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git fetch origin
 </span></span><span class="line"><span class="cl">git reset --hard origin/master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id="git-常用操作总结">Git 常用操作总结
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">操作</th>
+          <th style="text-align: left">命令示例</th>
+          <th style="text-align: left">说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">初始化仓库</td>
+          <td style="text-align: left"><code>git init</code></td>
+          <td style="text-align: left">初始化本地 Git 仓库</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">克隆远程仓库</td>
+          <td style="text-align: left"><code>git clone &lt;repo&gt;</code></td>
+          <td style="text-align: left">克隆远程仓库到本地</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">添加修改到暂存区</td>
+          <td style="text-align: left"><code>git add &lt;file&gt;</code></td>
+          <td style="text-align: left">添加文件到暂存区</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">提交修改</td>
+          <td style="text-align: left"><code>git commit -m &quot;message&quot;</code></td>
+          <td style="text-align: left">提交修改</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">查看当前状态</td>
+          <td style="text-align: left"><code>git status</code></td>
+          <td style="text-align: left">显示工作区和暂存区状态</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">查看提交历史</td>
+          <td style="text-align: left"><code>git log</code></td>
+          <td style="text-align: left">查看提交记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">创建分支</td>
+          <td style="text-align: left"><code>git branch &lt;branch&gt;</code></td>
+          <td style="text-align: left">创建分支</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">切换分支</td>
+          <td style="text-align: left"><code>git checkout &lt;branch&gt;</code></td>
+          <td style="text-align: left">切换到指定分支</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">合并分支</td>
+          <td style="text-align: left"><code>git merge &lt;branch&gt;</code></td>
+          <td style="text-align: left">合并分支到当前分支</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">推送到远程仓库</td>
+          <td style="text-align: left"><code>git push origin &lt;branch&gt;</code></td>
+          <td style="text-align: left">推送本地分支到远程仓库</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">拉取远程仓库更新</td>
+          <td style="text-align: left"><code>git pull</code></td>
+          <td style="text-align: left">拉取远程更新并合并</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">删除分支</td>
+          <td style="text-align: left"><code>git branch -d &lt;branch&gt;</code></td>
+          <td style="text-align: left">删除本地分支</td>
+      </tr>
+  </tbody>
+</table></div>
+<hr>
+<h2 id="常见问题与解决方案">常见问题与解决方案
+</h2><ol>
+<li>
+<p><strong>如何撤销上一次提交但保留修改？</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git reset --soft HEAD~1
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p><strong>如何解决合并冲突？</strong></p>
+<ul>
+<li>手动编辑冲突文件，标记合并完成后：
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add &lt;文件名&gt;
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;解决冲突&#34;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div></li>
 </ul>
-<h2 id="推荐阅读">推荐阅读
-</h2><p><a class="link" href="https://git-scm.com/book/zh/v2"  target="_blank" rel="noopener"
-    >《Pro Git 2nd Edition》</a></p>
+</li>
+<li>
+<p><strong>忘记添加文件后提交了怎么办？</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add &lt;文件名&gt;
+</span></span><span class="line"><span class="cl">git commit --amend -m <span class="s2">&#34;修改提交信息&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<hr>
+<h2 id="推荐资源">推荐资源
+</h2><ul>
+<li><strong>官方文档</strong>： <a class="link" href="https://git-scm.com/book/zh/v2"  target="_blank" rel="noopener"
+    >Pro Git 2nd Edition</a></li>
+<li><strong>在线学习平台</strong>：<a class="link" href="https://lab.github.com/"  target="_blank" rel="noopener"
+    >GitHub Learning Lab</a></li>
+</ul>
+<hr>
+<h2 id="结语">结语
+</h2><p>Git 是现代软件开发中不可或缺的工具，熟练掌握它能够极大提升开发效率。希望这份指南能帮助你更好地理解和使用 Git。如果你有任何问题或更好的建议，欢迎在评论区分享！ 😊</p>
+<hr>
 
 </section>
 
@@ -652,7 +816,19 @@
 
         <span>Licensed under CC BY-NC-SA 4.0</span>
     </section>
-    </footer>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 Dec 15, 2024 21:33 UTC
+        </span>
+    </section></footer>
 
 
     
