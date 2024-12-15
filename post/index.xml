@@ -22,285 +22,246 @@
         <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>https://5itomato.github.io/p/resource-naming/</guid>
-        <description>&lt;h1 id=&#34;影视资源命名规则&#34;&gt;影视资源命名规则
-&lt;/h1&gt;&lt;h2 id=&#34;示例&#34;&gt;示例
+        <description>&lt;h1 id=&#34;影视资源命名规则科普&#34;&gt;影视资源命名规则科普
+&lt;/h1&gt;&lt;p&gt;影视资源文件名看起来复杂且晦涩，但其中包含了大量关于视频质量、来源、音频格式等重要信息。掌握这些规则，有助于我们快速识别文件的详细信息，找到符合需求的资源。&lt;/p&gt;
+&lt;p&gt;本文将详细解析影视资源命名规则，助你一眼看懂各种格式，轻松分辨视频质量和来源！&lt;/p&gt;
+&lt;h2 id=&#34;示例&#34;&gt;示例
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Arcane.2019.S01E01.1080p.3D.NF.WEBRip.DDP5.1.x264.10bit.HDR.AAC-TEPES[rartv].mp4&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;实际的命名不会包括上述全部的内容，示例仅供参考学习。&lt;/p&gt;
+&lt;p&gt;实际文件名可能不会包含全部这些信息，以下内容仅供学习参考。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Arcane&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;电影名称&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;字段&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;含义&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;2019&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;上映年份&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Arcane&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;影视作品名称&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;S01E01&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;季数与集数&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;2019&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;上映年份&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;1080p&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;分辨率 / 清晰度&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;S01E01&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;第 1 季第 1 集&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;3D&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;3D效果&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;1080p&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;分辨率 / 清晰度&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;NF&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;来源&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;3D&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3D 效果&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;WEBRip&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;制作方式&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;NF&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;来源 (Netflix)&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;DDP5.1&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;音频格式&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;WEBRip&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;制作方式&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;x264&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;视频编码&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;DDP5.1&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;音频格式&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;10bit&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;色深&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;x264&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;视频编码&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;HDR&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;高动态范围&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;10bit&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;色深&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;AAC&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;音频编码&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;HDR&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;高动态范围&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;TEPES&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;发布组&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;AAC&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;音频编码&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;[RARTV]&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;来源标记&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;TEPES&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;发布组&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;[rartv]&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;来源标记&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;1-分辨率清晰度&#34;&gt;1. 分辨率/清晰度
-&lt;/h2&gt;&lt;p&gt;**720P：**1280 × 720 像素&lt;/p&gt;
-&lt;p&gt;**1080P：**1920 × 1080 像素，是 720P 分辨率的 2 倍。&lt;/p&gt;
+&lt;h2 id=&#34;分辨率--清晰度&#34;&gt;分辨率 / 清晰度
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;分辨率&lt;/strong&gt;表示视频画面的宽高像素数，直接影响视频清晰度。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;720p&lt;/strong&gt;：1280 × 720 像素&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1080p&lt;/strong&gt;：1920 × 1080 像素，是 720p 的 2 倍。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;另外，一些压制组喜欢裁黑边，所以可能最后视频分辨率高度不足 1080 。&lt;/p&gt;
+&lt;p&gt;说明：有些压制组会裁去视频黑边，导致实际高度略小于 1080。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;**2160P / 4K：**4096 × 2160 像素，是 1080P 分辨率的 4 倍，俗称 4K。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;2-电影来源&#34;&gt;2. 电影来源
-&lt;/h2&gt;&lt;h3 id=&#34;cam枪版&#34;&gt;CAM（枪版）
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;2160p (4K)&lt;/strong&gt;：3840 × 2160 像素，是 1080p 的 4 倍，常被称为 &lt;strong&gt;4K&lt;/strong&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;电影来源解析&#34;&gt;电影来源解析
+&lt;/h2&gt;&lt;p&gt;影视资源的来源通常反映了其制作方式与质量。以下是常见的电影来源：&lt;/p&gt;
+&lt;h3 id=&#34;cam枪版&#34;&gt;&lt;strong&gt;CAM（枪版）&lt;/strong&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 珍爱生命，远离枪版&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;—— 珍爱生命，远离枪版&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;CAM 通常是用数码摄像机从电影院盗录。有时会使用小三角架，但大多数时候不可能使用，所以摄像机会抖动。因此我们看到画面通常偏暗人物常常会失真，下方的字幕时常会出现倾斜。 由于声音是从摄像机自带的话筒录制，所以经常会录到观众的笑声等声音。因为这些因素，图象和声音质量通常都很差。&lt;/p&gt;
-&lt;h3 id=&#34;ts&#34;&gt;TS
+&lt;p&gt;使用数码摄像机在电影院中拍摄，画质和音质都很差，可能出现抖动、失真、观众声音等问题。&lt;/p&gt;
+&lt;h3 id=&#34;tstelesync&#34;&gt;&lt;strong&gt;TS（TeleSync）&lt;/strong&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 只比枪版好一点&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;—— 只比枪版略好&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;TS 与 CAM 版的标准是相同的。但它使用的是外置音源（一般是影院座椅上为听力不好的人设的耳机孔）这个音源不能保证是好的音源，因为受到很多背景噪音的干扰。TS 是在空的影院或是用专业摄像机在投影室录制，所以图象质量可能比 CAM 好。但画面的起伏很大。常出现的有一般 TS 版和经过修复清晰TS版。&lt;/p&gt;
-&lt;h3 id=&#34;tc&#34;&gt;TC
+&lt;p&gt;与 CAM 类似，但音频使用外置音源（如影院耳机孔），画质略有提升，噪音仍然存在。&lt;/p&gt;
+&lt;h3 id=&#34;dvdrip&#34;&gt;&lt;strong&gt;DVDRip&lt;/strong&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 基本也可以忽略&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;—— 标准清晰资源&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;TC 使用电视电影机从胶片直接数字拷贝。画面质量还不错，但亮度不足，有些昏暗。很多时候制作 TC 使用的音源来自 TS，因此音质很差，但画面质量远好过 TS。如果不是太讲究的话 TC 版还是不错的选择。&lt;/p&gt;
-&lt;h3 id=&#34;dvdrip&#34;&gt;DVDRip
+&lt;p&gt;从正式发行的 DVD 转制而成，画质与 DVD 基本一致，是较理想的标准清晰版本。&lt;/p&gt;
+&lt;h3 id=&#34;webrip--web-dl&#34;&gt;&lt;strong&gt;WEBRip &amp;amp; WEB-DL&lt;/strong&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 比较理想的版本&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;—— 蓝光下最优选择&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;DVDRip 是从最终版的 DVD 转制。质量应该是最好的。将 DVD 的视频、音频、字幕剥离出来，再经过压缩或者其他处理，然后重新合成成多媒体文件。一般来说，DVDrip 由影音文件(后缀为avi)和字幕文件组成。&lt;/p&gt;
-&lt;h3 id=&#34;tvrip&#34;&gt;TVRip
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WEBRip&lt;/strong&gt;：通过流媒体平台 (Netflix、Amazon 等) 捕获的视频流并重新封装，画质较好。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WEB-DL&lt;/strong&gt;：从流媒体平台无损下载的资源，未经过二次压缩，质量优于 WEBRip。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bluray--bdrip--brrip&#34;&gt;&lt;strong&gt;BluRay / BDRip / BRRip&lt;/strong&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— TV 转制&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;—— 高清与超清的代名词&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;TVRip 是从电视（最好是从数码有线电视/卫星电视捕捉）转制的电视剧及接收卫星接收到的节目，然后通过电视卡进行捕捉，压缩成文件，我们看的很多综艺及体育节目都是 TVRip。有些电视剧也会使用 TVRip 的方式进行发布。&lt;/p&gt;
-&lt;h3 id=&#34;hdtv&#34;&gt;HDTV
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 主要是连续剧&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;直接从高清电视卫星信号转录的，可能有马赛克，有台标，但速度快，一般是连续剧的片源格式，有时没有出 BluRay 也没有 Web-DL 版本的用此版本压制。&lt;/p&gt;
-&lt;h3 id=&#34;hdrip&#34;&gt;HDRip
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— BD之下，万人之上&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;HDRip = HD-DVD Rip，即 HD-DVD 高清转制，一般简写为 HD，效果好于一般的高清转制。&lt;/p&gt;
-&lt;h3 id=&#34;webrip&#34;&gt;WEBRip
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 随着视频流媒体网站的流行，WEBRip、WEB-DL 非常常见，也是蓝光下最好的选择了。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在 Netflix、Amazon Video、Hulu 等流媒体网站在线播放时，使用 HLS 或 RTMP/E 协议提取捕获视频内容，然后从 TS、MP4 或 FLV 容器重新混合到 MKV。&lt;/p&gt;
-&lt;p&gt;一般指来自具有弱 DRM 或没有 DRM 的流媒体服务的资源，以区别于 iTunes 的 WEB-DL。&lt;/p&gt;
-&lt;h3 id=&#34;web-dl&#34;&gt;WEB-DL
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 非蓝光的 2K、4K 流媒体资源大都是这个。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;从 Netflix、Amazon Video、Hulu、Crunchyroll、Discovery GO、BBC iPlayer 等流媒体服务中无损翻录的文件，或通过 iTunes 等在线分发网站下载的文件。&lt;/p&gt;
-&lt;p&gt;质量好于 WEBRip，因为它们没有重新编码。视频（H.264 或 H.265）和音频（AC3/AAC）流通常从 iTunes 或 Amazon Video 中提取并重新混合成 MKV 容器而不牺牲质量。因此常见为 4K。&lt;/p&gt;
-&lt;h3 id=&#34;bluray--bdrip--brrip&#34;&gt;BluRay / BDRip / BRRip
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 往往下映后几个月，才会开始发售蓝光光盘。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;直接从蓝光光盘源编码为 2160p、1080p、720p（取决于源），并使用 x264 或 x265 编解码器。它们可以从 BD25、BD50 光盘（或更高分辨率或比特率的 UHD 蓝光）甚至Remuxes中翻录。&lt;/p&gt;
-&lt;p&gt;BDRip 现在指的是已编码为较低分辨率（即 1080p 到 720p/576p/480p）的蓝光源。&lt;/p&gt;
-&lt;p&gt;BRRips，通常被误认为是 BDRips，是已经编码的高清分辨率视频，然后转码为另一种分辨率（通常是标清）。BDRips 不是转码，但 BRRips 是，它改变了它们的质量。无论如何，较低分辨率的 BD/BRRip 看起来更好，因为编码来自更高质量的源。&lt;/p&gt;
-&lt;p&gt;*&lt;strong&gt;下面这几种比较少见。*&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;directors-cut&#34;&gt;Director&amp;rsquo;s Cut
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 导演剪辑版&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;主要用于碟片发行中，因为出于商业的、票房的原因，在影院上映的影片未必是导演最终剪辑后的版本。故而碟商们推出了所谓导演剪辑版，与影院版有所区别，也是为了满足一部分追求“原汁原味”的观众的要求，同时多了一条生财之道。&lt;/p&gt;
-&lt;p&gt;导演剪辑版与影院版，有的差别较大（无论是放映时间还是镜头），有的则差别不大，因人因片而异。至于艺术成就，更是很难笼统而言。因为有人看重导演的主动权，但导演剪辑版也可能不如影院版更精炼，见仁见智而已。&lt;/p&gt;
-&lt;h3 id=&#34;unrated&#34;&gt;Unrated
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 未分级版&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;也就是没有根据不同观众对象剪辑，比较完整、原始的版本。（俗称未剪版）。&lt;/p&gt;
-&lt;p&gt;指的是没有在MPAA（美国电影协会）审查的电影。现在指的是一般的电影的最初为剪辑版本。一般包括大量暴力色情粗口的。是导演最初剪出来的片子。经MPAA审了片子之后就会定级。诸如。R、NC-17、PG13、PG、G （越往后越合家欢）等。&lt;/p&gt;
-&lt;h3 id=&#34;extended&#34;&gt;Extended
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 加长版&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;情形和导演剪辑版类似，很多的加长版是用来圈钱的，有的干脆就是把花絮里的删除段落直接加进去，也就长了几分钟而已。也有很厚道的，比如指环王的加长版，一部就加长了近 50 分钟，肯定对剧情有影响的。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;3-来源缩写&#34;&gt;3. 来源缩写
-&lt;/h2&gt;&lt;table&gt;
+&lt;p&gt;直接从蓝光光盘提取的视频，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BDRip&lt;/strong&gt;：将蓝光源压制为较低分辨率 (如 720p)。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BRRip&lt;/strong&gt;：已压制的视频再次被转码，质量稍逊于 BDRip。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;来源缩写一览&#34;&gt;来源缩写一览
+&lt;/h2&gt;&lt;p&gt;影视资源文件名中的来源缩写通常表示发布平台或电视台：&lt;/p&gt;
+&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;ABC&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;美国广播公司&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;缩写&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;含义&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;ATVP&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Apple TV + / 苹果&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;NF&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Netflix&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;AMZN&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Amazon / 亚马逊&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;AMZN&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Amazon&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;BBC&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;英国广播公司&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;DSNP&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Disney+&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;CW&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;CW&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;DCU&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;DC 宇宙&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;DSNP&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Disney+ / 迪士尼&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;DSNY&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;迪士尼网络&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;GPLAY&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Google Play&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;HMAX&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;HMAX&lt;/strong&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;HBO Max&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;HULU&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Hulu Networks&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;BBC&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;英国广播公司&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;iT&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;CW&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;The CW&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;ATVP&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Apple TV+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;iT&lt;/strong&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;iTunes&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;NF&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Netflix&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;4-视频编码&#34;&gt;4. 视频编码
-&lt;/h2&gt;&lt;h3 id=&#34;h264--avc--x264&#34;&gt;H.264 / AVC / x264
-&lt;/h3&gt;&lt;p&gt;H.264 是 MPEG-4 第十部分，是由 ITU-T（VCEG）和 ISO/IEC（MPEG）联合组成的联合视频组（JVT）提出的高度压缩数字视频编解码器标准。&lt;/p&gt;
-&lt;p&gt;这个标准通常被称之为 H.264/AVC（或者 AVC/H.264 或者 H.264/MPEG-4 AVC 或 MPEG-4/H.264 AVC）。&lt;/p&gt;
-&lt;p&gt;H.264 支持硬件加速（GPU），俗称硬解码。&lt;/p&gt;
-&lt;h3 id=&#34;h265--hevc--x265&#34;&gt;H.265 / HEVC / x265
-&lt;/h3&gt;&lt;p&gt;H.265 是 ITU-T（ VCEG）继 H.264 之后所制定的新的视频编码标准。&lt;/p&gt;
-&lt;p&gt;H.265 标准围绕着现有的视频编码标准 H.264 ，保留原来的某些技术，同时对一些相关的技术加以改进。新技术使用先进的技术用以改善码流、编码质量、延时和算法复杂度之间的关系，达到最优化设置。&lt;/p&gt;
-&lt;p&gt;同一个视频文件 H.265 可以做到清晰度相同的情况下，文件大小明显小于 H.264，且高分辨率下压制效果更好，因此目前的 2K、4K 资源普遍会使用 H.265。&lt;/p&gt;
+&lt;h2 id=&#34;视频编码技术&#34;&gt;视频编码技术
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;视频编码&lt;/strong&gt;决定了压缩效率和文件大小，以下是主流的视频编码标准：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;H.264 / x264&lt;/strong&gt;：兼容性好，硬件加速普及，是目前最常用的标准。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;H.265 / x265&lt;/strong&gt;：相比 H.264，同等画质下文件更小，尤其适合 4K 视频，但对设备性能要求更高。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AV1&lt;/strong&gt;：新一代免费编码标准，比 H.265 更高效，但硬件支持尚未普及。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;H.264、H.265 是视频编码格式标准，而衍生出的 x264、x265 是免费开源的视频编码器。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;提示：&lt;/strong&gt; H.264 和 H.265 是编码标准，而 x264 和 x265 是对应的开源编码器。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;av1&#34;&gt;AV1
-&lt;/h3&gt;&lt;p&gt;AV1 是由开放媒体联盟 (AOM) 开发的一种免费的现代视频格式。它以低于 H.264 甚至 H.265/HEVC 的比特率提供高质量视频。与 HEVC 不同，它可以在常见的 Web 浏览器中流式传输。它正在被 YouTube 和 Netflix 等采用。&lt;/p&gt;
-&lt;p&gt;比 H.264、H.265 更优秀（文件更小），但可惜目前并不普及，很多硬件设备还不支持 AV1 硬解。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;5-色深&#34;&gt;5. 色深
-&lt;/h2&gt;&lt;p&gt;目前有三种，分别是：&lt;strong&gt;8bit、10bit、12bit&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我们平时看到的视频绝大部分都是 8bit 的，10bit、12bit 的理论上色彩更丰富，但很多设备、播放器不支持，如果你发现颜色异常，则说明你的设备、播放器不支持。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;6-动态范围图像&#34;&gt;6. 动态范围图像
-&lt;/h2&gt;&lt;p&gt;目前有两种，分别是：&lt;strong&gt;SDR&lt;/strong&gt;(标准动态范围图像)、&lt;strong&gt;HDR&lt;/strong&gt;(高动态范围图像)&lt;/p&gt;
-&lt;p&gt;和色深差不多，我们平时看到的绝大部分视频都是 SDR 的，HDR 会让色彩、明暗等变化更优秀，但很多设备、播放器也是不支持，如果你发现颜色异常，则说明你的设备、播放器不支持。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;5-音频编码&#34;&gt;5. 音频编码
-&lt;/h2&gt;&lt;h3 id=&#34;dolby-digital-dd&#34;&gt;Dolby Digital (DD)
-&lt;/h3&gt;&lt;p&gt;在 DVD 上被称为 AC3 格式，支持 5 .1 声道环绕音效。&lt;/p&gt;
-&lt;h3 id=&#34;advanced-audio-coding--aac&#34;&gt;Advanced Audio Coding / AAC
-&lt;/h3&gt;&lt;p&gt;一种用于有损数字音频压缩的音频编码标准。&lt;/p&gt;
-&lt;p&gt;作为 MP3 格式的继承者，AAC 在相同比特率下通常可以实现比 MP3 编码器更高的音质。&lt;/p&gt;
-&lt;h3 id=&#34;dolby-digital-plusdd&#34;&gt;Dolby Digital Plus(DD+)
-&lt;/h3&gt;&lt;p&gt;Dolby Digital 格式的增强版，支持更高的比特率和 7.1 声道环绕音效。&lt;/p&gt;
-&lt;h3 id=&#34;dolby-truehd&#34;&gt;Dolby TrueHD
-&lt;/h3&gt;&lt;p&gt;MLP 无损压缩技术的增强版，支持多达 8 个声道的无损编码音频。&lt;/p&gt;
-&lt;h3 id=&#34;dolby-atmos--杜比全景声&#34;&gt;Dolby Atmos / 杜比全景声
-&lt;/h3&gt;&lt;p&gt;它突破了传统意义上 5.1、7.1 声道的概念，能够结合影片内容，呈现出动态的声音效果。&lt;/p&gt;
-&lt;h3 id=&#34;dts-digital-surround&#34;&gt;DTS Digital Surround
-&lt;/h3&gt;&lt;p&gt;目前在 DVD 上使用的格式，支持 5.1 声道环绕音效。&lt;/p&gt;
-&lt;h3 id=&#34;dts-d&#34;&gt;DTS-D
-&lt;/h3&gt;&lt;p&gt;DTS 的增强版，提供了更高的比特率和多达 8 个声道的音频。&lt;/p&gt;
-&lt;h3 id=&#34;dtsx&#34;&gt;DTS:X
-&lt;/h3&gt;&lt;p&gt;DTS:X 技术是开放式的新一代的编解码标准，同时也是基于对象的多维空间音频技术。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;6-封装格式&#34;&gt;6. 封装格式
-&lt;/h2&gt;&lt;p&gt;即把视频、音频、字幕等合并封装到一个文件里所用的格式。&lt;/p&gt;
-&lt;h3 id=&#34;avi&#34;&gt;AVI
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 廉颇老矣&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;AVI（Audio Video Interleaved）即音频视频交错格式。是将语音和影像同步组合在一起的文件格式。&lt;/p&gt;
-&lt;p&gt;它对视频文件采用了一种有损压缩方式，但压缩比较高，因此尽管面面质量不是太好，但其应用范围仍然非常广泛。（随着观众对电影品质要求的提升，AVI 格式已经基本 GG 了）&lt;/p&gt;
-&lt;h3 id=&#34;mkv&#34;&gt;MKV
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 后起之秀&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;MKV（Matroska Video File）是一种视频封装格式，本身是一种容器，可以把各种视频，音频和字幕等内容封装到一个文件里面的格式。&lt;/p&gt;
-&lt;p&gt;MKV 是开放、免费、没有限制的格式，开发者承诺大家可以自由使用这种格式 和 该格式所开发的软件，不会在这个格式普遍的时候变成一个商业的项目。&lt;/p&gt;
-&lt;p&gt;MKV 可在一个视频文件中集成多条不同类型的音轨和字幕轨，而且其视频编码的自由度也非常大。&lt;/p&gt;
-&lt;p&gt;MKV 通常用来存储对画质要求高的视频，往往是 高清 或 蓝光 的推荐格式，所以文件更大。&lt;/p&gt;
-&lt;h3 id=&#34;mp4&#34;&gt;MP4
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;—— 兼容性强&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;MP4 是 MPEG-4 的简写，是由 MPEG（Moving Picture Experts Group）这个组织制定出来的一种视频封装格式，H.264 和 H.265 就是它们搞得。&lt;/p&gt;
-&lt;p&gt;MP4 最出名的是兼容性，在早些年移动设备上播放效果很好。&lt;/p&gt;
-&lt;p&gt;缺点是 MP4 中只能内置硬字幕（和视频融为一体），无法在播放器中关闭/切换字幕。因此建议下载纯净的 MP4 文件搭配外挂字幕（srt、ass、sub）。&lt;/p&gt;
-&lt;h2 id=&#34;7-其他&#34;&gt;7. 其他
-&lt;/h2&gt;&lt;h3 id=&#34;3d&#34;&gt;3D
-&lt;/h3&gt;&lt;p&gt;顾名思义，需要 3D 眼镜观看。&lt;/p&gt;
-&lt;h3 id=&#34;imax&#34;&gt;IMAX
-&lt;/h3&gt;&lt;p&gt;IMAX（即 Image Maximum 的缩写，意为 “最大影像” ）是一种能够放映比传统胶片&lt;strong&gt;更大、更高&lt;/strong&gt;解像度的电影放映系统。随着观众的要求越来越高，以前的电影比例和大小已经不难满足了，所以出现了 IMAX，相比以前 IMAX 的尺寸更大、更高，同一画幅下的内容更多。&lt;/p&gt;
+&lt;h2 id=&#34;色深与动态范围&#34;&gt;色深与动态范围
+&lt;/h2&gt;&lt;h3 id=&#34;色深&#34;&gt;&lt;strong&gt;色深&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;色深表示颜色信息的丰富程度：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;8bit&lt;/strong&gt;：普通视频常用的色深。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10bit / 12bit&lt;/strong&gt;：色彩更丰富，适合 HDR 视频，但设备兼容性较低。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;动态范围&#34;&gt;&lt;strong&gt;动态范围&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SDR（标准动态范围）&lt;/strong&gt;：普通视频格式。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HDR（高动态范围）&lt;/strong&gt;：色彩和亮度表现更佳，需设备支持，否则可能出现色彩异常。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;音频编码解析&#34;&gt;音频编码解析
+&lt;/h2&gt;&lt;p&gt;常见音频编码格式：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;格式&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;说明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;AAC&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;MP3 的继承者，音质更佳。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;DD (AC3)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;杜比 5.1 环绕音效。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;DD+&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;杜比增强版，支持 7.1。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;TrueHD&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;无损杜比音频。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;DTS / DTS-HD&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;DTS 标准及高清音频。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Atmos&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;杜比全景声，提供沉浸式体验。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;封装格式&#34;&gt;封装格式
+&lt;/h2&gt;&lt;p&gt;封装格式决定了视频、音频、字幕等内容如何存储在一个文件中：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MP4&lt;/strong&gt;：兼容性强，适合移动设备，但仅支持硬字幕。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MKV&lt;/strong&gt;：开放格式，支持多音轨、多字幕，适合高清资源。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AVI&lt;/strong&gt;：老旧格式，压缩效率低，逐渐被淘汰。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;其他常见标记&#34;&gt;其他常见标记
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;3D&lt;/strong&gt;：表示视频为 3D 版本，需要 3D 设备和眼镜播放。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IMAX&lt;/strong&gt;：代表视频为 IMAX 规格，画面更大、细节更丰富。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Director&amp;rsquo;s Cut&lt;/strong&gt;：导演剪辑版，包含影院未上映的内容。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extended / Unrated&lt;/strong&gt;：加长版或未分级版，内容更完整。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结
+&lt;/h2&gt;&lt;p&gt;影视资源的命名规则虽然看起来复杂，但掌握其中的关键信息后，你就能轻松分辨出资源的清晰度、来源、音频质量等内容，快速找到最符合需求的视频文件。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -335,7 +296,7 @@ $$&lt;/p&gt;
 &lt;li&gt;Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。&lt;/li&gt;
 &lt;li&gt;Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;1-初始化-git&#34;&gt;1. 初始化 Git
+&lt;h2 id=&#34;初始化-git&#34;&gt;初始化 Git
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -344,7 +305,7 @@ $$&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;2-检出仓库&#34;&gt;2. 检出仓库
+&lt;/div&gt;&lt;h2 id=&#34;检出仓库&#34;&gt;检出仓库
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -355,7 +316,7 @@ $$&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone username@host:/path/to/repository
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;3-工作流&#34;&gt;3. 工作流
+&lt;/div&gt;&lt;h2 id=&#34;工作流&#34;&gt;工作流
 &lt;/h2&gt;&lt;p&gt;你的本地仓库由 git 维护的三棵“树”组成。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -380,7 +341,7 @@ $$&lt;/p&gt;
 		data-flex-basis=&#34;608px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;4-添加和提交&#34;&gt;4. 添加和提交
+&lt;h2 id=&#34;添加和提交&#34;&gt;添加和提交
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -397,7 +358,7 @@ $$&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &amp;#34;[comment]&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;5-推送改动&#34;&gt;5. 推送改动
+&lt;/div&gt;&lt;h2 id=&#34;推送改动&#34;&gt;推送改动
 &lt;/h2&gt;&lt;p&gt;从&lt;code&gt;HEAD&lt;/code&gt;推送到&lt;code&gt;远端仓库&lt;/code&gt;，其中master可以替换成任何分支。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -417,7 +378,7 @@ $$&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;如此你就能够将你的改动推送到所添加的服务器上去了。&lt;/p&gt;
-&lt;h2 id=&#34;6-分支&#34;&gt;6. 分支
+&lt;h2 id=&#34;分支&#34;&gt;分支
 &lt;/h2&gt;&lt;p&gt;分支是用来将特性开发绝缘开来的。在你创建仓库的时候，&lt;em&gt;master&lt;/em&gt; 是“默认的”分支。在其他分支上进行开发，完成后再将它们合并到主分支上。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://5itomato.github.io/p/git-learning/2.png&#34;
 	width=&#34;1467&#34;
@@ -477,7 +438,7 @@ $$&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;7-更新与合并&#34;&gt;7. 更新与合并
+&lt;h2 id=&#34;更新与合并&#34;&gt;更新与合并
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;要更新你的本地仓库至最新改动，执行：&lt;/p&gt;
@@ -525,7 +486,7 @@ $$&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;8替换本地改动&#34;&gt;8.替换本地改动
+&lt;h2 id=&#34;替换本地改动&#34;&gt;替换本地改动
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;假如你操作失误（当然，这最好永远不要发生），你可以使用如下命令替换掉本地改动：&lt;/p&gt;
@@ -553,9 +514,9 @@ $$&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;9推荐阅读&#34;&gt;9.推荐阅读
+&lt;h2 id=&#34;推荐阅读&#34;&gt;推荐阅读
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://git-scm.com/book/zh/v2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pro Git 2nd Edition&lt;/a&gt;&lt;/p&gt;
+    &gt;《Pro Git 2nd Edition》&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>

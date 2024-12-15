@@ -293,15 +293,15 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#1-初始化-git">1. 初始化 Git</a></li>
-    <li><a href="#2-检出仓库">2. 检出仓库</a></li>
-    <li><a href="#3-工作流">3. 工作流</a></li>
-    <li><a href="#4-添加和提交">4. 添加和提交</a></li>
-    <li><a href="#5-推送改动">5. 推送改动</a></li>
-    <li><a href="#6-分支">6. 分支</a></li>
-    <li><a href="#7-更新与合并">7. 更新与合并</a></li>
-    <li><a href="#8替换本地改动">8.替换本地改动</a></li>
-    <li><a href="#9推荐阅读">9.推荐阅读</a></li>
+    <li><a href="#初始化-git">初始化 Git</a></li>
+    <li><a href="#检出仓库">检出仓库</a></li>
+    <li><a href="#工作流">工作流</a></li>
+    <li><a href="#添加和提交">添加和提交</a></li>
+    <li><a href="#推送改动">推送改动</a></li>
+    <li><a href="#分支">分支</a></li>
+    <li><a href="#更新与合并">更新与合并</a></li>
+    <li><a href="#替换本地改动">替换本地改动</a></li>
+    <li><a href="#推荐阅读">推荐阅读</a></li>
   </ol>
 </nav>
         </div>
@@ -404,7 +404,7 @@
 <li>Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</li>
 <li>Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。</li>
 </ul>
-<h2 id="1-初始化-git">1. 初始化 Git
+<h2 id="初始化-git">初始化 Git
 </h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -413,7 +413,7 @@
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git init
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="2-检出仓库">2. 检出仓库
+</div><h2 id="检出仓库">检出仓库
 </h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -424,7 +424,7 @@
 </span></span><span class="line"><span class="cl">git clone username@host:/path/to/repository
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="3-工作流">3. 工作流
+</div><h2 id="工作流">工作流
 </h2><p>你的本地仓库由 git 维护的三棵“树”组成。</p>
 <ul>
 <li>
@@ -449,7 +449,7 @@
 		data-flex-basis="608px"
 	
 ></p>
-<h2 id="4-添加和提交">4. 添加和提交
+<h2 id="添加和提交">添加和提交
 </h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -466,7 +466,7 @@
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git commit -m &#34;[comment]&#34;
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="5-推送改动">5. 推送改动
+</div><h2 id="推送改动">推送改动
 </h2><p>从<code>HEAD</code>推送到<code>远端仓库</code>，其中master可以替换成任何分支。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -486,7 +486,7 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>如此你就能够将你的改动推送到所添加的服务器上去了。</p>
-<h2 id="6-分支">6. 分支
+<h2 id="分支">分支
 </h2><p>分支是用来将特性开发绝缘开来的。在你创建仓库的时候，<em>master</em> 是“默认的”分支。在其他分支上进行开发，完成后再将它们合并到主分支上。</p>
 <p><img src="/p/git-learning/2.png"
 	width="1467"
@@ -546,7 +546,7 @@
 </div>
 </div></li>
 </ul>
-<h2 id="7-更新与合并">7. 更新与合并
+<h2 id="更新与合并">更新与合并
 </h2><ul>
 <li>
 <p>要更新你的本地仓库至最新改动，执行：</p>
@@ -594,7 +594,7 @@
 </div>
 </div></li>
 </ul>
-<h2 id="8替换本地改动">8.替换本地改动
+<h2 id="替换本地改动">替换本地改动
 </h2><ul>
 <li>
 <p>假如你操作失误（当然，这最好永远不要发生），你可以使用如下命令替换掉本地改动：</p>
@@ -622,9 +622,9 @@
 </div>
 </div></li>
 </ul>
-<h2 id="9推荐阅读">9.推荐阅读
+<h2 id="推荐阅读">推荐阅读
 </h2><p><a class="link" href="https://git-scm.com/book/zh/v2"  target="_blank" rel="noopener"
-    >Pro Git 2nd Edition</a></p>
+    >《Pro Git 2nd Edition》</a></p>
 
 </section>
 
