@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Git on 番茄炒西红柿</title>
-        <link>https://5itomato.github.io/tags/git/</link>
+        <link>http://localhost:1313/tags/git/</link>
         <description>Recent content in Git on 番茄炒西红柿</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Tomato</copyright>
-        <lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://5itomato.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Git学习随笔</title>
-        <link>https://5itomato.github.io/p/git-learning/</link>
+        <link>http://localhost:1313/p/git-learning/</link>
         <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://5itomato.github.io/p/git-learning/</guid>
-        <description>&lt;img src="https://5itomato.github.io/p/git-learning/git.png" alt="Featured image of post Git学习随笔" /&gt;&lt;h1 id=&#34;git操作速记&#34;&gt;Git操作速记
+        <guid>http://localhost:1313/p/git-learning/</guid>
+        <description>&lt;img src="http://localhost:1313/p/git-learning/git.png" alt="Featured image of post Git学习随笔" /&gt;&lt;h1 id=&#34;git操作速记&#34;&gt;Git操作速记
 &lt;/h1&gt;&lt;p&gt;什么是Git？&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。&lt;/li&gt;
@@ -53,10 +53,10 @@
 &lt;p&gt;最后是 &lt;code&gt;HEAD&lt;/code&gt;，它指向你最后一次提交的结果&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://5itomato.github.io/p/git-learning/1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/git-learning/1.png&#34;
 	width=&#34;1478&#34;
 	height=&#34;583&#34;
-	srcset=&#34;https://5itomato.github.io/p/git-learning/1_hu2060114268529817648.png 480w, https://5itomato.github.io/p/git-learning/1_hu14453283340395508666.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/git-learning/1_hu2060114268529817648.png 480w, http://localhost:1313/p/git-learning/1_hu14453283340395508666.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -104,10 +104,10 @@
 &lt;/div&gt;&lt;p&gt;如此你就能够将你的改动推送到所添加的服务器上去了。&lt;/p&gt;
 &lt;h2 id=&#34;分支&#34;&gt;分支
 &lt;/h2&gt;&lt;p&gt;分支是用来将特性开发绝缘开来的。在你创建仓库的时候，&lt;em&gt;master&lt;/em&gt; 是“默认的”分支。在其他分支上进行开发，完成后再将它们合并到主分支上。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://5itomato.github.io/p/git-learning/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/git-learning/2.png&#34;
 	width=&#34;1467&#34;
 	height=&#34;554&#34;
-	srcset=&#34;https://5itomato.github.io/p/git-learning/2_hu257794646803229572.png 480w, https://5itomato.github.io/p/git-learning/2_hu4429149227812070672.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/git-learning/2_hu257794646803229572.png 480w, http://localhost:1313/p/git-learning/2_hu4429149227812070672.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
