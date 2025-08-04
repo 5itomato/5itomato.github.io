@@ -1,0 +1,79 @@
+---
+import config from 'virtual:config'
+
+import { Icon } from '../user'
+
+const currentYear = new Date().getFullYear();
+const startYear = config.since
+const displayYear = startYear && startYear < currentYear
+  ? `${startYear} - ${currentYear}`
+  : currentYear;
+
+const footerConf = config.footer
+let social = footerConf.social || {}
+
+// If the list does not contain rss, add it
+social.rss = {
+  label: 'RSS',
+  url: '/rss.xml'
+}
+
+const footerLink = footerConf.links || []
+---
+
+<footer class='mx-auto mb-5 mt-16 w-full'>
+  <div class='border-t pt-5'>
+    <div class='flex items-center gap-y-3 max-md:flex-col md:justify-between md:gap-y-0'>
+      <div
+        class='flex items-center gap-x-4 gap-y-2 text-muted-foreground max-md:flex-col [&_a]:text-foreground text-sm'
+      >
+        <div>
+          © {displayYear}
+          {config.author}
+        </div>
+        {
+          footerConf.credits && (
+            <div>
+              <a href='https://github.com/withastro/astro' target='_blank'>
+                Astro
+              </a>
+              &
+              <a href='https://github.com/cworld1/astro-theme-pure' target='_blank'>
+                Pure
+              </a>
+              theme powered
+            </div>
+          )
+        }
+        {
+          footerLink.length > 0 && (
+            <div class='flex items-center gap-x-2 justify-center'>
+              {footerLink.map(({ title, link, style }, index) => (
+                <a href={link} target='_blank' class={style}>
+                  {title}
+                </a>
+                <span>{index < footerLink.length - 1 && '|'}</span>
+              ))}
+            </div>
+          )
+        }
+      </div>
+
+      {/* Social Brands */}
+      <div class='flex items-center gap-x-4'>
+        {
+          footerConf.social &&
+            Object.entries(footerConf.social).map(([platform, { label, url }]) => (
+              <a
+                class='inline-block text-muted-foreground transition-all hover:text-muted-foreground/75'
+                href={url}
+                aria-label={label}
+              >
+                <Icon name={platform as keyof typeof footerConf.social} />
+              </a>
+            ))
+        }
+      </div>
+    </div>
+  </div>
+</footer>
