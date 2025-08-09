@@ -74,7 +74,7 @@ export default defineConfig({
   // Server Options
   server: {
     host: true,
-    allowedHosts: ['arthals.ink']
+    allowedHosts: ['itmt.io']
   },
   // Markdown Options
   markdown: {

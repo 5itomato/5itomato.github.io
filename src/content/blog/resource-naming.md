@@ -1,7 +1,7 @@
 ---
 title: 资源命名
 description: '影视资源命名规则详解'
-publishDate: 2025-08-03 20:50:40
+publishDate: 2024-11-17 19:29:43
 tags: ['tag1', 'tag2']
 ---
 
