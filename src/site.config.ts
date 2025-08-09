@@ -67,11 +67,11 @@ export const theme: ThemeUserConfig = {
       //   link: 'https://beian.miit.gov.cn/',
       //   style: 'text-xs text-muted-foreground' // Uno/TW CSS class
       // },
-      {
-        title: '萌ICP备20254869号',
-        link: 'https://icp.gov.moe/?keyword=20254869',
-        style: 'text-xs text-muted-foreground' // Uno/TW CSS class
-      }
+      // {
+      //   title: '萌ICP备20254869号',
+      //   link: 'https://icp.gov.moe/?keyword=20254869',
+      //   style: 'text-xs text-muted-foreground' // Uno/TW CSS class
+      // }
     ],
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
     credits: false,
