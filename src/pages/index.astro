@@ -13,18 +13,13 @@ import avatar from '@/assets/avatar.png'
 import config from '@/site-config'
 
 const webDevelopment = [
-  'Vue.js',
-  'Nuxt.js',
-  'Node.js',
-  'React.js',
-  'TypeScript',
   'JavaScript',
   'CSS',
   'HTML'
 ]
-const generalProgramming = ['Python', 'PyTorch', 'C', 'C++', 'C#', 'R', 'MySQL', 'PostgreSQL']
+const generalProgramming = ['Python', 'C', 'C++', 'Java']
 const developmentTools = ['VSCode', 'Vim', 'Git', 'Linux', 'Docker', 'Nginx']
-const designTools = ['Figma', 'Photoshop', 'Illustrator']
+const designTools = ['Photoshop']
 const others = ['Markdown', 'LaTeX']
 
 const MAX_POSTS = 10
@@ -57,7 +52,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
 
     <div id='content' class='animate flex flex-col gap-y-10 md:w-4/5 lg:w-5/6'>
       <Section title='About'>
-        <p class='text-muted-foreground mt-1'>Developer / Designer / <del>Medical student </del></p>
+        <p class='text-muted-foreground mt-1'>Developer / <del>Biology student </del></p>
         <div class='flex flex-col gap-2 leading-6 text-muted-foreground'>
           <p>你好，我叫 Tomato，是一个乐于研究新鲜事物的生物工程学生。</p>
           <p>
@@ -65,7 +60,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
               生物化学
             </del>
             分子生物学折磨，一边在
-            <del> 高等数学 </del> 408 中 学 到头秃。
+            <del> 数学 </del> 408 中学到头秃。
           </p>
           <p>我的兴趣主要在 AI / 软件开发 方向。</p>
           <p>我喜欢 Minecraft。</p>
