@@ -2,7 +2,7 @@
 title: Git
 description: 'Git 学习记录'
 publishDate: 2024-04-1 21:33:05
-tags: ['tag1', 'tag2']
+tags: ['git', 'learning']
 ---
 
 ## 什么是 Git？

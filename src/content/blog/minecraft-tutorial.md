@@ -2,7 +2,7 @@
 title: Minecraft JE 教程
 description: '或许应该叫 PCL2 使用教程？'
 publishDate: 2022-08-09 22:45:03
-tags: ['Game', 'Minecraft']
+tags: ['game', 'minecraft']
 ---
 
 > 在此声明：

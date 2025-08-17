@@ -2,7 +2,7 @@
 title: LateX
 description: 'LateX 学习记录'
 publishDate: 2025-02-10 21:21:11
-tags: ['tag1', 'tag2']
+tags: ['latex', 'learning']
 ---
 
 ## 什么是 LaTeX ？

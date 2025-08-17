@@ -2,7 +2,7 @@
 title: Nginx
 description: 'Nginx 学习记录'
 publishDate: 2025-02-02 01:38:57
-tags: ['tag1', 'tag2']
+tags: ['nginx', 'learning']
 ---
 
 ## Nginx 介绍
