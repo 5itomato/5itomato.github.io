@@ -76,7 +76,7 @@ export const theme: ThemeUserConfig = {
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
     credits: false,
     /** Optional details about the social media accounts for this site. */
-    social: { github: 'https://github.com/5itomato', email: 'mailto:itoamto5@outlook.com' }
+    social: { github: 'https://github.com/5itomato', email: 'mailto:itomato5@outlook.com' }
   },
 
   content: {
@@ -94,7 +94,7 @@ export const integ: IntegrationUserConfig = {
   // See: https://astro-pure.js.org/docs/integrations/links
   links: {
     // Friend logbook
-    logbook: [{ date: '2024-01-16', content: '开始接纳新的伙伴！' }],
+    logbook: [{ date: '2025-06-19', content: '开始接纳新的伙伴！' }],
     // Yourself link info
     applyTip: [
       { name: 'Name', val: theme.title },
